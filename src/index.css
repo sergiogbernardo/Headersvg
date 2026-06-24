@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth bg-black;
+  }
+
+  body {
+    @apply bg-black font-sans text-slate-100 antialiased;
+  }
+
+  ::selection {
+    @apply bg-emerald-400 text-black;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #334155 transparent;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply rounded-2xl border border-emerald-500/15 bg-black/70 p-5 backdrop-blur-md;
+  }
+
+  .panel-title {
+    @apply font-display text-sm font-semibold uppercase tracking-wider text-emerald-300/80;
+  }
+
+  .field-label {
+    @apply mb-1.5 block font-mono text-xs uppercase tracking-wider text-slate-400;
+  }
+}
+
+@layer utilities {
+  .bg-grid-glow {
+    background-image: radial-gradient(circle at 50% 0%, rgba(52, 211, 153, 0.1), transparent 60%);
+  }
+}
