@@ -4,10 +4,10 @@ Client-side security-header auditor. Paste the HTTP response headers (or a
 Content-Security-Policy) and get a graded report of what is present, weak or
 missing — **entirely in the browser**. There is no backend.
 
-Part of the [project hub](https://sergiogbernardo.github.io/), alongside
-[Bytevg](https://sergiogbernardo.github.io/Bytevg/),
-[Loghivevg](https://sergiogbernardo.github.io/Loghivevg/) and
-[Scanvg](https://sergiogbernardo.github.io/Scanvg/).
+Part of the [project hub](https://sabion.io/), alongside
+[Bytevg](https://sabion.io/Bytevg/),
+[Loghivevg](https://sabion.io/Loghivevg/) and
+[Scanvg](https://sabion.io/Scanvg/).
 
 ## Modules
 
